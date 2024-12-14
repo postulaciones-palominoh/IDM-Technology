@@ -3,7 +3,7 @@ Feature: Navegacion Web
     Given El usuario ingresa a la plataforma Exito
         And Pasos Previos de Ingreso a Categoria Cabeceras
     
-    @Productos
+    @Productos @E2E
     Scenario: Seleccion de Productos, Catidades Aleatoriamente y Validacion del Reto
         When El Usuario Escoge 5 Productos y sus respectivas cantidades
         Then Ingresar al Carrito de Compras
