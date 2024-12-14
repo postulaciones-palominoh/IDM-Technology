@@ -1,4 +1,4 @@
-Feature: Navegacion Web
+Feature: Seleeccion y Validacion de Productos
     Background:
     Given El usuario ingresa a la plataforma Exito
         And Pasos Previos de Ingreso a Categoria Cabeceras
